@@ -1,0 +1,39 @@
+body{
+    color: white;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    padding: 20px;
+}
+.section .photo img{
+   width: 200px;
+   border-radius: 20px;
+}
+.section .AboutMe,.section .Achievements,.section .Skills{
+    margin: 30px 50px 5px 50px;
+}
+.section .AboutMe h1,.section .Achievements h1,.section .Skills h1{
+    font-size: 50px;
+    color: #07f5b2;
+}
+.section .AboutMe p,.section .Achievements p{
+    font-size: 35px;
+}
+.section .Skills{
+    align-self: flex-start;
+}
+.section .Skills .skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section .Skills .skill img{
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+
+
